@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Dave Ho's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="color.css">
+	<link rel="stylesheet" type="text/css" href="Grid.css">
+	<link rel="icon" href="Asset/Logo-01.png">
+  	<link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" type="text/css" href="fullpage.css" />
+	<script type="text/javascript" src="fullpage.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="vendors/easings.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+	<script src="wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css" />
+	<script type="text/javascript" src="jquery.fancybox.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="lightslider.css" />
+	<script src="lightslider.js"></script>
+</head>
+	
+	<style>.section{
+			text-align: center;
+		}
+		img#ButtonSuggest {
+			width: 25%;
+			position: absolute;
+			bottom: 3%;
+			right: 3%;
+		}
+		
+		div#section0 .fp-tableCell {
+			vertical-align: middle;
+		}
+		div.section .fp-tableCell {
+			vertical-align: top;
+		}
+		div.section h2 span {
+			font-size: 22px;
+		}
+
+		div.section h2 {
+			margin-top: 10vh;
+			font-size: 40px;
+		}
+/*-------------------------section 1-------------------------*/
+		
+		
+/*-------------------------section 2-------------------------*/
+		
+		div#section2 .slide2 p{    
+			font-size: 18px;
+    		margin-bottom: 15px;
+    		text-align: left;
+		}
+		div#section2 .slide2 img{
+			margin: 5vw auto;
+			
+		}
+		
+/*-------------------------section 3-------------------------*/
+		
+		
+/*-------------------------section 4-------------------------*/
+		
+		
+	</style>
+<body>
+	<svg width="155" height="155" id="PageMark1" class="animated fadeInRight delay-1s">
+	 	<polygon points="0,0 155,155 155,0 " style="fill:#4444" />
+	 	<polygon points="5,0 155,150 155,0 " style="fill:#6699cc"/>
+	</svg>
+	<svg width="155" height="155" id="PageMark2" class="animated fadeInUp delay-1s">
+	 	<polygon points="0,0 155,155 0,155 " style="fill:#4444" />
+	 	<polygon points="0,5 150,155 0,155 " style="fill:#6699cc"/>
+	</svg>
+	
+		<div id="pagemenu"  class="animated fadeInLeft">
+		<div id="pagelogo" class="">
+			<a href="index.html"><img src="Asset/Logo-01.png"></a>
+		</div>
+		<table>
+			<tr>
+				<td class="animated fadeInLeft delay-01s bg-green">
+					<a href="web.php.html">Website</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="animated fadeInLeft delay-02s bg-orange">
+					<a href="design.php.html">Design</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="animated fadeInLeft delay-03s bg-red">
+					<a href="motion.php.html">Motion</a>
+				</td>
+			</tr>
+						
+			<tr>
+				<td class="animated fadeInLeft delay-04s bg-blue">
+					<a href="about.php.html">About</a>
+				</td>
+			</tr>
+			
+		</table>
+	</div>	
+	<div id="ScreenWrap"  class="animated fadeInUp">
+		
+		<ul id="slideMenu" class="animated fadeInRight delay-2s">
+			<li data-menuanchor="page00" class="active"><a href="#page00"><div></div></a></li>
+			<li data-menuanchor="page02"><a href="#page02"><div></div><span>FOUR FOREFINGER</span></a></li>
+			<li data-menuanchor="page01"><a href="#page01"><div></div><span>SMART AIRER</span></a></li>
+		</ul>
+		
+		<div id="fullpage">
+
+			<div class="section bg-blue" id="section0">
+				<img class="pagelanding" src="Asset/m-logo/Logo_Others.png" >
+				<img class="animated slower fadeInOut delay-1s" src="Asset/Button%20Suggest.png" id="ButtonSuggest">
+			</div>
+
+<!--
+			<div class="section" id="section3">
+				
+			</div>
+-->
+
+			<div class="section" id="section2">
+				
+				<div class="slide" data-anchor="slide1">
+					<h2 class="blue">FOUR FORFINGER</h2>
+					<div class="w10" style="position: relative; height: 10px; margin: auto;">
+						<a data-fancybox="gallery" href="Asset/image/others/FYP%20Poster.png">
+							<img src="Asset/image/others/FYP%20Poster.png" class="l1 h6 t3 shadow hover-scale">
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/others/FYP%20Icon.png">
+							<img src="Asset/image/others/FYP%20Icon.png" class="w3 r1 t2 hover-scale">
+						</a>
+					</div>
+				</div>
+				
+				<div class="slide slide2"  data-anchor="slide2">
+					<h2 class="blue">Final Year Project of Higher-Diploma in Multimedia</h2>
+					<img src="Asset/image/others/FYP%20Icon.png" class="w3"><br>
+					<p class="hover-scale w8">
+						In the project, a iOS game for practice classification and communication was built. This is a four-players game. Also, there are 4 game mode.
+					</p>
+					<p class="hover-scale w8">
+						There are four slider for players in the game screen, the slider top-bottom and left-right are connected be line and two line create one intersect point, player can control the point by moving each slider. The game need all player make cooperate to move the intersect point to finish the game.
+					</p>
+					<p class="hover-scale w8">
+						Also, this project won the best FYP Award in IVE Multimedia 2015~2017. 
+					</p>
+					
+				</div>
+				
+				<div class="slide slide3"  data-anchor="slide3">
+					<h2 class="blue">Video Demo</h2>
+					<video src="Asset/image/others/gameplay.mp4" class="w6 t6 r2 hover-scale shadow" controls poster="Asset/image/others/FYP%20Poster.png"></video>
+					<video src="Asset/image/others/Four%20Forefinger%20-%2010s%20promotional%20video.mp4" class="w6 t4 l2 hover-scale shadow" controls poster="Asset/image/others/FYP%20Poster.png"></video>
+					
+				</div>
+				
+			</div>
+
+			<div class="section" id="section1">	
+				
+				<h2 class="blue">IOT<span>(Internet of thing)</span> Project "SMART AIRER"</h2>
+				<a data-fancybox="gallery" href="Asset/image/others/smart%20air%20Cover.jpg">
+					<img src="Asset/image/others/smart%20air%20Cover.jpg" class="l2 h6 t4 shadow hover-scale">
+				</a>
+				<a data-fancybox="gallery" href="Asset/image/others/Smart%20Airer.jpg">
+					<img src="Asset/image/others/Smart%20Airer.jpg" class="h8 r2 t3 shadow hover-scale">
+				</a>
+				<p class="w6 l4 b2">News Report:<br><br>
+					<a href="https://bit.ly/2J0vcPx" target="_blank" class="hover-scale blue">SIN TAO DAILY</a>, 
+					<a href="https://bit.ly/2XL4LAu" target="_blank" class="hover-scale blue">On.cc</a>, 
+					<a href="https://bit.ly/2TnU7RT" target="_blank" class="hover-scale blue">881903.com</a>.
+				</p>
+				
+			</div>
+			
+
+		</div>
+	</div>
+	
+	
+	
+	<script type="text/javascript" src="fullpage.js"></script>
+	<script type="text/javascript">
+		var myFullpage = new fullpage('#fullpage', {
+			scrollingSpeed: 500,
+			anchors: ['page00', 'page02', 'page01'],
+			menu: '#slideMenu',
+			slidesNavigation: true
+		});
+		
+	</script>
+</body>
+</html>

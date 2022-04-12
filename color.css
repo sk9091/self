@@ -1,0 +1,53 @@
+
+.red, .red * {
+	color:rgb(255, 39, 120);
+}
+.orange, .orange * {
+    color: #ffae12;
+}
+.yellow, .yellow * {
+    color: rgb(250,200,89);
+}
+.green, .green * {
+	color: #8be702;
+}
+.blue, .blue * {
+	color: #1b8bcc;
+}
+.purple, .purple * {
+	color: rgb(197,148,197);
+}
+.menured:hover, .bg-red {
+	background-color:rgb(255, 39, 120);
+}
+.menuorange:hover, .bg-orange {
+    background-color: #ffae12;
+}
+.menuyellow:hover, .bg-yellow {
+    background-color: rgb(250,200,89);
+}
+.menugreen:hover, .bg-green {
+	background-color: #8be702;
+}
+.menublue:hover, .bg-blue {
+	background-color: #0d9ff3;
+}
+.menupurple:hover, .bg-purple {
+	background-color: rgb(197,148,197);
+}
+.menupurple:hover, .bg-black {
+	background-color: rgb(0,0,0,1.00);
+}
+.menuhover:hover ,.menuhover:hover span{
+	color:white !important;
+}
+a{
+	color:rgba(23,37,45,1.00);
+}
+.mainmenu{
+    background-color: #ddd;
+}
+footer{
+	background-color:rgba(99,113,124,1.00);
+	color:rgba(205,211,221,1.00);
+}

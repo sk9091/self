@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Dave Ho's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="color.css">
+	<link rel="stylesheet" type="text/css" href="Grid.css">
+	<link rel="icon" href="Asset/Logo-01.png">
+  	<link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" type="text/css" href="fullpage.css" />
+	<script type="text/javascript" src="fullpage.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="vendors/easings.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+	<script src="wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css" />
+	<script type="text/javascript" src="jquery.fancybox.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="lightslider.css" />
+	<script src="lightslider.js"></script>
+</head>
+	
+	<style>div#section0{
+			height: 100vh;
+			width: 100%;
+   			position: relative;
+		}
+		
+		div#imagewall img {
+			width: 100%;
+		}
+		div#imagewall a {
+			display: block;
+			padding: 15px 0;
+		}
+
+		div#imagewall {
+			width: 85%;
+			padding: 2.5%;
+			margin: auto;
+			column-count: 3;
+		}
+		.wallimage {
+		 	border-radius: 5px;
+/*
+		  	cursor: pointer;
+		 	transition: 0.3s;
+*/
+		}
+		.wallimage:hover {opacity: 0.7;}
+		div#imagewall a div img {
+			transition: all 0.3s ease;
+		}
+
+		div#imagewall a:hover div img {
+			transform: scale(1.1);
+		}
+		h3{
+			text-align: center;
+			padding: 10ch 0 ;
+		}
+		
+	</style>
+<body>
+	<svg width="155" height="155" id="PageMark1" class="animated fadeInRight delay-1s">
+	 	<polygon points="0,0 155,155 155,0 " style="fill:#4444" />
+	 	<polygon points="5,0 155,150 155,0 " style="fill:#ffae12"/>
+	</svg>
+	<svg width="155" height="155" id="PageMark2" class="animated fadeInUp delay-1s">
+	 	<polygon points="0,0 155,155 0,155 " style="fill:#4444" />
+	 	<polygon points="0,5 150,155 0,155 " style="fill:#ffae12"/>
+	</svg>
+	
+	
+		<div id="pagemenu"  class="animated fadeInLeft">
+		<div id="pagelogo" class="">
+			<a href="index.html"><img src="Asset/Logo-01.png"></a>
+		</div>
+		<table>
+			<tr>
+				<td class="animated fadeInLeft delay-01s bg-green">
+					<a href="web.php.html">Website</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="animated fadeInLeft delay-02s bg-orange">
+					<a href="design.php.html">Design</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="animated fadeInLeft delay-03s bg-red">
+					<a href="motion.php.html">Motion</a>
+				</td>
+			</tr>
+						
+			<tr>
+				<td class="animated fadeInLeft delay-04s bg-blue">
+					<a href="about.php.html">About</a>
+				</td>
+			</tr>
+			
+		</table>
+	</div>	
+	<div id="ScreenWrap"  class="animated fadeInUp">
+		
+		<div id="section0" class="bg-orange">
+			<img class="pagelanding scrollpage" src="Asset/m-logo/Logo_Design.png" >
+			<span>Scoll Down...</span>
+		</div>
+		<div id="imagewall">
+			
+						<a data-fancybox="gallery" href="Asset/image/design/BS-1.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/BS-1.jpg" id="mark0" onclick="pop('mark0')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/BS-2.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/BS-2.jpg" id="mark1" onclick="pop('mark1')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/BS-3.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/BS-3.jpg" id="mark2" onclick="pop('mark2')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/BS-4.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/BS-4.jpg" id="mark3" onclick="pop('mark3')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/5D.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/5D.jpg" id="mark4" onclick="pop('mark4')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/Facebook%20Post-01.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/Facebook%20Post-01.jpg" id="mark12" onclick="pop('mark12')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/Facebook%20Post-05.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/Facebook%20Post-05.jpg" id="mark13" onclick="pop('mark13')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/Restore%20Poster-01.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/Restore%20Poster-01.jpg" id="mark15" onclick="pop('mark15')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/UAT.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/UAT.jpg" id="mark15" onclick="pop('mark15')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/Restore%20Poster-02.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/Restore%20Poster-02.jpg" id="mark16" onclick="pop('mark16')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/leaflet_p.1.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/leaflet_p.1.jpg" id="mark18" onclick="pop('mark18')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/%E8%86%A0%E5%8E%9F%E8%9B%8B%E8%9B%8B-01.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/%E8%86%A0%E5%8E%9F%E8%9B%8B%E8%9B%8B-01.jpg" id="mark25" onclick="pop('mark25')" />
+							</div>
+						</a>
+						<a data-fancybox="gallery" href="Asset/image/design/%E9%9B%99%E9%87%8D%E8%A3%9C%E6%B0%B4%20%5BRecovered%5D-01.jpg">
+							<div>
+								<img  class="wallimage wow bounceIn" src="Asset/image/design/%E9%9B%99%E9%87%8D%E8%A3%9C%E6%B0%B4%20%5BRecovered%5D-01.jpg" id="mark27" onclick="pop('mark27')" />
+							</div>
+						</a>			
+			
+		</div>
+		<h3>Page End</h3>
+	</div>
+	
+</body>
+</html>

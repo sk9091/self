@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Home - Dave Ho's Portfolio</title>
+<!-- CSS -->
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" charset="utf-8">
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen" />
+
+<!-- JavaScript -->
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+<script>
+var viewHeight = $(window).height();
+
+$( document ).ready(function() {
+		browserDetection();
+	indexInitialSetup();   
+	indexTopBar(); 
+	$(".fancybox").fancybox();
+	
+	$(".various").fancybox({
+		maxWidth	: 1280,
+		maxHeight	: 720,
+		fitToView	: true,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'elastic',
+		closeEffect	: 'none'
+	});
+	
+});
+
+$(document).scroll(function() {
+	indexTopBar();
+});
+
+$(window).resize(function() {
+	indexResizeSetup();
+	indexTopBar();
+});
+  
+  
+</script>
+</head>
+
+<body class="index_body">
+
+<!--
+	<div class="nav_bar">
+		<div class="nav_bar_title_container">
+			<a href="index.html">
+			<div class="nav_bar_title">
+				Dave Ho's Portfolio.
+			</div>
+			</a>
+		</div>
+		<div class="nav_bar_nav">
+			<ul class="center_container">
+				<a href="motions.html"><li class="nav_bar_nav_motions">Motion</li></a>
+				<a href="designs.html"><li class="nav_bar_nav_designs">Design</li></a>
+				<a href="websites.html"><li class="nav_bar_nav_webs">Website</li></a>
+				<a href="about.html"><li class="nav_bar_nav_about">About Me</li></a>
+			</ul>
+		</div>
+
+	</div>
+-->
+<ul class="nav_box">
+	<a href="#home" class="scroll"><li class="nav_box_back_to_top">back to top</li></a>
+	<a href="#motions" class="scroll"><li class="nav_box_motions">Motion</li></a>
+	<a href="#designs" class="scroll"><li class="nav_box_designs">Design</li></a>
+	<a href="#webs" class="scroll"><li class="nav_box_webs">Website</li></a>
+	<a href="#about" class="scroll"><li class="nav_box_about">About Me</li></a>
+</ul>
+	
+	<section class="home_cover" id="home">
+		<div class="browser_detection">
+			<p class="browser_detection_title">Best Visual Experience</p>
+			<img src="images/browser_detection_browser.png" class="browser_detection_browser" />
+			<p class="browser_detection_item1">1. switch to Chrome or Safari.</p>
+			<img src="images/browser_detection_user_screen.png" class="browser_detection_user_screen_img" />
+			<img src="images/browser_detection_user_window.png" class="browser_detection_user_window_img" />
+			<img src="images/icon_cross.png" class="browser_detection_user_screen_result" />
+			<img src="images/icon_cross.png" class="browser_detection_user_window_result" />
+			<p class="browser_detection_user_screen"></p>
+			<p class="browser_detection_user_window"></p>
+			<p class="browser_detection_item2">2. fullscreen & higher screen resolution <span>(1920x1080 or above is recommended).</span></p>
+			<p class="browser_detection_thankyou">Thank you!
+			<p class="browser_detection_time">10</p>
+		</div>
+		<div class="home_title_container">
+			<a href="index.html">
+			<div class="home_title">
+				Dave Ho's Portfolio
+			</div>
+			</a>
+			<div class="home_title_scroll">
+				Welcome to my Site. Please Click on category to view part of my works.
+			</div>
+			<video autoplay loop class="title_bg">
+			<source src="css/video/title_bg.mov" type="video/mp4">
+			</video>
+		</div>
+		<div class="home_nav">
+			<ul class="center_container">
+				<a href="web.php.html"><li class="home_nav_webs">Website</li></a>
+				<a href="design.php.html"><li class="home_nav_designs">Design</li></a>
+				<a href="motion.php.html"><li class="home_nav_motions">Motion</li></a>
+				<a href="about.php.html"><li class="home_nav_about">About Me</li></a>
+			</ul>
+		</div>
+	</section>
+	
+
+</body>
+</html>

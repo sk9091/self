@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+.section, .slide{
+	position: relative;
+}
+.shadow {
+    box-shadow: 2px 1px 7px 0px #000a;
+}
+
+.hover-scale{
+	transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.hover-scale:hover{
+	transform: scale(1.1);
+	z-index: 9997;
+}
+
+.al-left{
+	text-align: left;
+}
+.al-right{
+	text-align: right;
+}
+.al-center{
+	text-align: center;
+}
+.block{
+	display: block;
+}
+.inline-block{
+	display: inline-block;
+}
+
+.w1{width: 6vw;}
+.w2{width: 13vw;}
+.w3{width: 20vw;}
+.w4{width: 27vw;}
+.w5{width: 35vw;}
+.w6{width: 41vw;}
+.w7{width: 48vw;}
+.w8{width: 55vw;}
+.w9{width: 62vw;}
+.w10{width: 69vw;}
+.w11{width: 76vw;}
+.w12{width: 83vw;}
+.w-full{width: 100%}
+
+.l1{position:absolute; left: 1vw;}
+.l2{position:absolute; left: 8vw;}
+.l3{position:absolute; left: 15vw;}
+.l4{position:absolute; left: 22vw;}
+.l5{position:absolute; left: 29vw;}
+.l6{position:absolute; left: 36vw;}
+.l7{position:absolute; left: 43vw;}
+.l8{position:absolute; left: 50vw;}
+.l9{position:absolute; left: 57vw;}
+.l10{position:absolute; left: 64vw;}
+.l11{position:absolute; left: 71vw;}
+.l12{position:absolute; left: 78vw;}
+
+.r1{position:absolute; right: 1vw;}
+.r2{position:absolute; right: 8vw;}
+.r3{position:absolute; right: 15vw;}
+.r4{position:absolute; right: 22vw;}
+.r5{position:absolute; right: 29vw;}
+.r6{position:absolute; right: 36vw;}
+.r7{position:absolute; right: 43vw;}
+.r8{position:absolute; right: 50vw;}
+.r9{position:absolute; right: 57vw;}
+.r10{position:absolute; right: 64vw;}
+.r11{position:absolute; right: 71vw;}
+.r12{position:absolute; right: 78vw;}
+
+.h1{height: 7.25vh;}
+.h2{height: 15.5vh;}
+.h3{height: 23.75vh;}
+.h4{height: 32vh;}
+.h5{height: 40.25vh;}
+.h6{height: 48.5vh;}
+.h7{height: 56.75vh;}
+.h8{height: 65vh;}
+.h9{height: 73.25vh;}
+.h10{height: 81.5vh;}
+.h11{height: 89.75vh;}
+.h12{height: 98vh;}
+
+.t1{top: 1.5vh;}
+.t2{top: 9.75vh;}
+.t3{top: 18vh;}
+.t4{top: 26.25vh;}
+.t5{top: 34.5vh;}
+.t6{top: 42.75vh;}
+.t7{top: 51vh;}
+.t8{top: 59vh;}
+.t9{top: 67.5vh;}
+.t10{top: 75.75vh;}
+.t11{top: 84vh;}
+.t12{top: 92.25vh;}
+
+.b1{bottom: 1.5vh;}
+.b2{bottom: 9.75vh;}
+.b3{bottom: 18vh;}
+.b4{bottom: 26.25vh;}
+.b5{bottom: 34.5vh;}
+.b6{bottom: 42.75vh;}
+.b7{bottom: 51vh;}
+.b8{bottom: 59vh;}
+.b9{bottom: 67.5vh;}
+.b10{bottom: 75.75vh;}
+.b11{bottom: 84vh;}
+.b12{bottom: 92.25vh;}
+

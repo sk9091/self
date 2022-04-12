@@ -1,0 +1,686 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Dave Ho's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="color.css">
+	<link rel="stylesheet" type="text/css" href="Grid.css">
+	<link rel="icon" href="Asset/Logo-01.png">
+  	<link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" type="text/css" href="fullpage.css" />
+	<script type="text/javascript" src="fullpage.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="vendors/easings.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+	<script src="wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css" />
+	<script type="text/javascript" src="jquery.fancybox.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="lightslider.css" />
+	<script src="lightslider.js"></script>
+</head>
+	
+	<style>.section{
+			text-align: center;
+		}
+		
+		div.section h2 span {
+			font-size: 24px;
+			color: #67aa03;
+		}
+
+		div.section h2 {
+			font-size: 40px;
+			color: #67aa03;
+		}
+		div.section h3 {
+			color: #67aa03;
+		}
+		div.section table{
+			margin: auto;
+		}
+/*-------------------------section 1-------------------------*/
+		
+		
+/*-------------------------section 2-------------------------*/
+
+		
+/*-------------------------section 3-------------------------*/
+		.webwall {
+			width: 80%;
+			height: 90vh;
+			margin: auto;
+		}
+		.webimgclub {
+			width: 100%;
+			height: 18Vh;
+			display: inline-block;
+			overflow: hidden;
+    		border: 3px solid #8be702;
+			background-color: #8be702;
+		}
+		.webwall img {
+			visibility: visible !important;
+			width: 100%;
+		}
+		a.imgmb {
+    		width: 29%;
+			display: block;
+			float: right;
+		}
+
+		a.imgpc {
+			width: 70%;
+			display: block;
+			float: left;
+		}
+		div#row1, div#row3 {
+    		margin-left: 19%;
+    		border-left: 10px solid #8be702;
+		}
+		div#row2 {
+    		margin-left: 1%;
+    		border-right: 10px solid #8be702;
+		}
+
+		div#row1, div#row2, div#row3 {
+			width: 80%;
+		}
+/*-------------------------section 4-------------------------*/
+		
+		
+	</style>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#web-slider1").lightSlider({
+            	item: 3,
+				auto: true,
+				loop: true,
+				controls: true,
+				pause: 2000,
+			});
+			setTimeout(function(){
+				$("#web-slider2").lightSlider({
+					item: 3,
+					auto: true,
+					rtl:true,
+					loop: true,
+					pause: 2000,
+				});
+			}, 500);
+			setTimeout(function(){
+				$("#web-slider3").lightSlider({
+					item: 3,
+					auto: true,
+					loop: true,
+					pause: 2000,
+				});
+			}, 1000);
+		});
+	</script>
+<body>
+	<svg width="155" height="155" id="PageMark1" class="animated fadeInRight delay-1s">
+	 	<polygon points="0,0 155,155 155,0 " style="fill:#4444" />
+	 	<polygon points="5,0 155,150 155,0 " style="fill:#8be702"/>
+	</svg>
+	<svg width="155" height="155" id="PageMark2" class="animated fadeInUp delay-1s">
+	 	<polygon points="0,0 155,155 0,155 " style="fill:#4444" />
+	 	<polygon points="0,5 150,155 0,155 " style="fill:#8be702"/>
+	</svg>
+	
+		<div id="pagemenu"  class="animated fadeInLeft">
+		<div id="pagelogo" class="">
+			<a href="index.html"><img src="Asset/Logo-01.png"></a>
+		</div>
+		<table>
+			<tr>
+				<td class="animated fadeInLeft delay-01s bg-green">
+					<a href="web.php.html">Website</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="animated fadeInLeft delay-02s bg-orange">
+					<a href="design.php.html">Design</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="animated fadeInLeft delay-03s bg-red">
+					<a href="motion.php.html">Motion</a>
+				</td>
+			</tr>
+						
+			<tr>
+				<td class="animated fadeInLeft delay-04s bg-blue">
+					<a href="about.php.html">About</a>
+				</td>
+			</tr>
+			
+		</table>
+	</div>	
+	<div id="ScreenWrap"  class="animated fadeInUp">
+		
+		<ul id="slideMenu" class="animated fadeInRight delay-2s">
+			<li data-menuanchor="page00" class="active"><a href="#page00"><div></div></a></li>
+			<li data-menuanchor="page04"><a href="#page04"><div></div><span>ToysRus Starcard</span></a></li>
+			<li data-menuanchor="page03"><a href="#page03"><div></div><span>CJP</span></a></li>
+			<li data-menuanchor="page02"><a href="#page02"><div></div><span>WIT</span></a></li>
+			<li data-menuanchor="page01"><a href="#page01"><div></div><span>Past Project</span></a></li>
+		</ul>
+		
+		<div id="fullpage">
+
+			<div class="section bg-green" id="section0">
+				<img class="pagelanding" src="Asset/m-logo/Logo_Web.png" >
+				<img class="animated slower fadeInOut delay-1s" src="Asset/Button%20Suggest.png" id="ButtonSuggest">
+			</div>
+			
+			<div class="section" id="section1">
+				
+				<table width="80%">
+					<tr>
+						<td width="50%">
+							<a href="https://xd.adobe.com/spec/d3a1511b-cff8-4beb-4464-09f34cbfe333-a590/grid" target="_blank">
+								<img src="Asset/image/Web/CR-small.jpg" class="h7 shadow hover-scale">
+							</a>
+						</td>
+						<td width="50%">
+							<h2 class="green">Company Registry<br><span>E-Service</span></h2>
+							<br>
+							<a data-fancybox="gallery" href="Asset/image/Web/CR-2.jpg">
+								<img src="Asset/image/Web/CR-2.jpg" class="h3 shadow hover-scale">
+							</a>
+							<a data-fancybox="gallery" href="Asset/image/Web/CR-4.jpg">
+								<img src="Asset/image/Web/CR-4.jpg" class="h3 shadow hover-scale">
+							</a>
+							<a data-fancybox="gallery" href="Asset/image/Web/CR-5.jpg">
+								<img src="Asset/image/Web/CR-5.jpg" class="h3 shadow hover-scale">
+							</a>
+							<a data-fancybox="gallery" href="Asset/image/Web/CR-6.jpg">
+								<img src="Asset/image/Web/CR-6.jpg" class="h3 shadow hover-scale">
+							<a data-fancybox="gallery" href="Asset/image/Web/CR-9.jpg">
+								<img src="Asset/image/Web/CR-9.jpg" class="h3 shadow hover-scale">
+							</a>
+							<a data-fancybox="gallery" href="Asset/image/Web/CR-10.jpg">
+								<img src="Asset/image/Web/CR-10.jpg" class="h3 shadow hover-scale">
+							</a>
+							<a data-fancybox="gallery" href="Asset/image/Web/CR-11.jpg">
+								<img src="Asset/image/Web/CR-11.jpg" class="h3 shadow hover-scale">
+							</a>
+							
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+
+			<div class="section" id="section2">
+				
+				<table width="80%">
+					<tr>
+						<td width="40%">
+							<a data-fancybox="gallery" href="Asset/image/Web/TRU_StarcardApps-01.jpg">
+								<img src="Asset/image/Web/TRU_StarcardApps-01.jpg" class="h10 shadow hover-scale">
+							</a>
+						</td>
+						<td width="60%">
+							<h2 class="green">Toys R Us<br><span>Star Card Mobile Apps</span></h2>
+							<img src="Asset/image/Web/StarCard_Qr.png" class="h3">
+							<br>
+							<h3>Scan above QR code to download</h3><br><br>
+							<a data-fancybox="gallery" href="Asset/image/Web/TRU_StarcardApps-02.jpg">
+								<img src="Asset/image/Web/TRU_StarcardApps-02.jpg" class="w1 shadow hover-scale">
+							</a>
+							<a data-fancybox="gallery" href="Asset/image/Web/TRU_StarcardApps-03.jpg">
+								<img src="Asset/image/Web/TRU_StarcardApps-03.jpg" class="w1 shadow hover-scale">
+							</a>
+							<a data-fancybox="gallery" href="Asset/image/Web/TRU_StarcardApps-04.jpg">
+								<img src="Asset/image/Web/TRU_StarcardApps-04.jpg" class="w1 shadow hover-scale">
+							</a>
+							<a data-fancybox="gallery" href="Asset/image/Web/TRU_StarcardApps-05.jpg">
+								<img src="Asset/image/Web/TRU_StarcardApps-05.jpg" class="w1 shadow hover-scale">
+							</a>
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+
+			<div class="section" id="section3">
+				
+				<table width="80%">
+					<tr>
+						<td width="50%">
+							<a href="https://journeyplanner.hongkongairport.com/HKIA_JourneyPlan/index.jsp#" target="_blank">
+								<img src="Asset/image/Web/CJP-small.jpg" class="h7 shadow hover-scale">
+							</a>
+						</td>
+						<td width="50%">
+							<h2 class="green">Hong Kong International Airport<br><span>Journey Planner - Maninland Connection</span></h2>
+							<br>
+          <video class="h4" loop muted playsinline controls autoplay preload="none">
+            <source src="Asset/image/Web/CJP-demo.mp4" type="video/mp4">
+          </video>
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+			
+			
+			<div class="section" id="section4">
+				
+				<table width="80%">
+					<tr>
+						<td width="50%">
+							<a href="http://dev-hkiawit.objectvalley.com/index.html" target="_blank">
+								<img src="Asset/image/Web/WIT-small.jpg" class="h7 shadow hover-scale">
+							</a>
+						</td>
+						<td width="50%">
+							<h2 class="green">Hong Kong International Airport<br><span>Work Improvement Team Programme</span></h2>
+							<br>
+							<a data-fancybox="gallery" href="Asset/image/Web/WIT-2.jpg">
+								<img src="Asset/image/Web/WIT-2.jpg" class="h3 shadow hover-scale">
+							</a>
+							<a data-fancybox="gallery" href="Asset/image/Web/WIT-3.jpg">
+								<img src="Asset/image/Web/WIT-3.jpg" class="h3 shadow hover-scale">
+							</a>
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+
+			<div class="section" id="section5">
+				
+				<h2 class="green">Past Project(RWD)</h2><br><br>
+				<div id="row1">
+					<ul id="web-slider1" class="webwall" width="80%">
+						
+									<li class="webimgclub" >
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_01.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_01.jpg" id="mark0" onclick="pop('mark0')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_01.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_01.jpg" id="mark0" onclick="pop('mark0')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub" >
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_02.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_02.jpg" id="mark1" onclick="pop('mark1')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_02.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_02.jpg" id="mark1" onclick="pop('mark1')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub" >
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_03.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_03.jpg" id="mark2" onclick="pop('mark2')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_03.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_03.jpg" id="mark2" onclick="pop('mark2')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub" >
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_04.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_04.jpg" id="mark3" onclick="pop('mark3')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_04.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_04.jpg" id="mark3" onclick="pop('mark3')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub" >
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_05.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_05.jpg" id="mark4" onclick="pop('mark4')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_05.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_05.jpg" id="mark4" onclick="pop('mark4')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub" >
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_06.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_06.jpg" id="mark5" onclick="pop('mark5')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_06.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_06.jpg" id="mark5" onclick="pop('mark5')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub" >
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_07.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_07.jpg" id="mark6" onclick="pop('mark6')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_07.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_07.jpg" id="mark6" onclick="pop('mark6')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub" >
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_08.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_08.jpg" id="mark7" onclick="pop('mark7')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_08.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_08.jpg" id="mark7" onclick="pop('mark7')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub" >
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_09.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_09.jpg" id="mark8" onclick="pop('mark8')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_09.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_09.jpg" id="mark8" onclick="pop('mark8')" />
+											</div>
+										</a>
+									</li>
+													</ul>
+				</div>
+				
+				<div id="row2">
+					<ul id="web-slider2" class="webwall" width="80%">
+						
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_09.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_09.jpg" id="mark8.6666666666667" onclick="pop('mark8.6666666666667')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_09.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_09.jpg" id="mark8.6666666666667" onclick="pop('mark8.6666666666667')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_10.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_10.jpg" id="mark9.6666666666667" onclick="pop('mark9.6666666666667')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_10.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_10.jpg" id="mark9.6666666666667" onclick="pop('mark9.6666666666667')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_11.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_11.jpg" id="mark10.666666666667" onclick="pop('mark10.666666666667')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_11.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_11.jpg" id="mark10.666666666667" onclick="pop('mark10.666666666667')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_12.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_12.jpg" id="mark11.666666666667" onclick="pop('mark11.666666666667')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_12.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_12.jpg" id="mark11.666666666667" onclick="pop('mark11.666666666667')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_13.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_13.jpg" id="mark12.666666666667" onclick="pop('mark12.666666666667')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_13.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_13.jpg" id="mark12.666666666667" onclick="pop('mark12.666666666667')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_14.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_14.jpg" id="mark13.666666666667" onclick="pop('mark13.666666666667')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_14.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_14.jpg" id="mark13.666666666667" onclick="pop('mark13.666666666667')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_15.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_15.jpg" id="mark14.666666666667" onclick="pop('mark14.666666666667')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_15.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_15.jpg" id="mark14.666666666667" onclick="pop('mark14.666666666667')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_16.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_16.jpg" id="mark15.666666666667" onclick="pop('mark15.666666666667')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_16.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_16.jpg" id="mark15.666666666667" onclick="pop('mark15.666666666667')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_17.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_17.jpg" id="mark16.666666666667" onclick="pop('mark16.666666666667')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_17.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_17.jpg" id="mark16.666666666667" onclick="pop('mark16.666666666667')" />
+											</div>
+										</a>
+									</li>
+													</ul>
+				</div>
+				
+				<div id="row3">
+					<ul id="web-slider3" class="webwall" width="80%">
+						
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_18.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_18.jpg" id="mark17.333333333333" onclick="pop('mark17.333333333333')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_18.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_18.jpg" id="mark17.333333333333" onclick="pop('mark17.333333333333')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_19.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_19.jpg" id="mark18.333333333333" onclick="pop('mark18.333333333333')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_19.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_19.jpg" id="mark18.333333333333" onclick="pop('mark18.333333333333')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_20.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_20.jpg" id="mark19.333333333333" onclick="pop('mark19.333333333333')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_20.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_20.jpg" id="mark19.333333333333" onclick="pop('mark19.333333333333')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_21.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_21.jpg" id="mark20.333333333333" onclick="pop('mark20.333333333333')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_21.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_21.jpg" id="mark20.333333333333" onclick="pop('mark20.333333333333')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_22.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_22.jpg" id="mark21.333333333333" onclick="pop('mark21.333333333333')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_22.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_22.jpg" id="mark21.333333333333" onclick="pop('mark21.333333333333')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_23.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_23.jpg" id="mark22.333333333333" onclick="pop('mark22.333333333333')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_23.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_23.jpg" id="mark22.333333333333" onclick="pop('mark22.333333333333')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_24.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_24.jpg" id="mark23.333333333333" onclick="pop('mark23.333333333333')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_24.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_24.jpg" id="mark23.333333333333" onclick="pop('mark23.333333333333')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_25.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_25.jpg" id="mark24.333333333333" onclick="pop('mark24.333333333333')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_25.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_25.jpg" id="mark24.333333333333" onclick="pop('mark24.333333333333')" />
+											</div>
+										</a>
+									</li>
+								
+									<li class="webimgclub">
+										<a data-fancybox="gallery" class="imgpc" href="Asset/image/Web/WebPC/PortFoWeb_PC_26.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebPC/PortFoWeb_PC_26.jpg" id="mark25.333333333333" onclick="pop('mark25.333333333333')" />
+											</div>
+										</a>
+										<a data-fancybox="gallery" class="imgmb" href="Asset/image/Web/WebMB/PortFoWeb_Mobile_26.jpg">
+											<div>
+												<img  src="Asset/image/Web/WebMB/PortFoWeb_Mobile_26.jpg" id="mark25.333333333333" onclick="pop('mark25.333333333333')" />
+											</div>
+										</a>
+									</li>
+													</ul>
+				</div>
+				
+			</div>
+
+
+		</div>
+	</div>
+	
+	
+	
+	<script type="text/javascript" src="fullpage.js"></script>
+	<script type="text/javascript">
+		var myFullpage = new fullpage('#fullpage', {
+			scrollingSpeed: 500,
+			anchors: ['page00', 'page04', 'page03', 'page02' , 'page01'],
+			menu: '#slideMenu'
+//			,anchors:['firstPage', 'secondPage', 'thirdPage']
+		});
+		
+	</script>
+</body>
+</html>

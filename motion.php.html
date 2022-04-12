@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Dave Ho's Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="color.css">
+	<link rel="stylesheet" type="text/css" href="Grid.css">
+	<link rel="icon" href="Asset/Logo-01.png">
+  	<link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" type="text/css" href="fullpage.css" />
+	<script type="text/javascript" src="fullpage.js"></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="vendors/easings.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+	<script src="wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css" />
+	<script type="text/javascript" src="jquery.fancybox.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="lightslider.css" />
+	<script src="lightslider.js"></script>
+</head>
+	
+	<style>div#section2, div#section3{
+			text-align: center;
+		}
+		div#section2 video, div#section3 video{
+			display: inline-block;
+    		margin: 8px;
+		}
+		div#section2 section, div#section3 section{
+    		margin: auto;
+		}
+		
+		div#section1 {
+			text-align: center;
+		}
+	
+	</style>
+	
+<body>
+	<svg width="155" height="155" id="PageMark1" class="animated fadeInRight delay-1s">
+	 	<polygon points="0,0 155,155 155,0 " style="fill:#4444" />
+	 	<polygon points="5,0 155,150 155,0 " style="fill:rgb(255, 39, 120)"/>
+	</svg>
+	<svg width="155" height="155" id="PageMark2" class="animated fadeInUp delay-1s">
+	 	<polygon points="0,0 155,155 0,155 " style="fill:#4444" />
+	 	<polygon points="0,5 150,155 0,155 " style="fill:rgb(255, 39, 120)"/>
+	</svg>
+	
+		<div id="pagemenu"  class="animated fadeInLeft">
+		<div id="pagelogo" class="">
+			<a href="index.html"><img src="Asset/Logo-01.png"></a>
+		</div>
+		<table>
+			<tr>
+				<td class="animated fadeInLeft delay-01s bg-green">
+					<a href="web.php.html">Website</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="animated fadeInLeft delay-02s bg-orange">
+					<a href="design.php.html">Design</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="animated fadeInLeft delay-03s bg-red">
+					<a href="motion.php.html">Motion</a>
+				</td>
+			</tr>
+						
+			<tr>
+				<td class="animated fadeInLeft delay-04s bg-blue">
+					<a href="about.php.html">About</a>
+				</td>
+			</tr>
+			
+		</table>
+	</div>	
+	<div id="ScreenWrap"  class="animated fadeInUp">
+		
+		<ul id="slideMenu" class="animated fadeInRight delay-2s">
+			<li data-menuanchor="page00" class="active"><a href="#page00"><div></div></a></li>
+			<li data-menuanchor="page03"><a href="#page03"><div></div></a></li>
+			<li data-menuanchor="page02"><a href="#page02"><div></div></a></li>
+			<li data-menuanchor="page01"><a href="#page01"><div></div></a></li>
+		</ul>
+		
+		<div id="fullpage">
+
+			<div class="section bg-red" id="section0">
+				<img class="pagelanding" src="Asset/m-logo/Logo_Motion.png" >
+				<img class="animated slower fadeInOut delay-1s" src="Asset/Button Suggest.png" id="ButtonSuggest">
+			</div>
+
+			<div class="section" id="section3">
+				<section class="w12">
+					<video src="Asset/image/motion/Gold_Strategy_Breaker_FINAL_1.mp4" controls width="40%" class="hover-scale shadow" autoplay muted loop></video>
+					<video src="Asset/image/motion/warrants_online_1.mp4" controls width="40%" class="hover-scale shadow" autoplay muted loop></video>
+					<video src="Asset/image/motion/Breaker B_1.mp4" controls width="40%" class="hover-scale shadow" autoplay muted loop></video>
+					<video src="Asset/image/motion/12DEC_Breaker mixed_1.mp4" controls width="40%" class="hover-scale shadow" autoplay muted loop></video>
+				</section>
+			</div>
+
+			<div class="section" id="section2">
+				<section class="w12">
+					<video src="Asset/image/motion/designcover.mp4" controls width="30%" class="hover-scale shadow" autoplay muted loop></video>
+					<video src="Asset/image/motion/artscover.mp4" controls width="30%" class="hover-scale shadow" autoplay muted loop></video>
+					<video src="Asset/image/motion/videocover.mp4" controls width="30%" class="hover-scale shadow" autoplay muted loop></video>
+					<video src="Asset/image/motion/photographiccover.mp4" controls width="30%" class="hover-scale shadow" autoplay muted loop></video>
+					<video src="Asset/image/motion/projectcover.mp4" controls width="30%" class="hover-scale shadow" autoplay muted loop></video>
+				</section>
+			</div>
+
+			<div class="section" id="section1">
+				<img src="Asset/gif/craftv01.gif" class="hover-scale shadow w6">
+				<img src="Asset/image/motion/Craft%20Logo.gif" class="hover-scale shadow w3"><br>
+				<img src="Asset/gif/HOT.gif" class="hover-scale shadow w3">
+				<img src="Asset/gif/COLD.gif" class="hover-scale shadow w3">
+				
+			</div>
+
+		</div>
+	</div>
+	
+	
+	
+	<script type="text/javascript" src="fullpage.js"></script>
+	<script type="text/javascript">
+		var myFullpage = new fullpage('#fullpage', {
+			scrollingSpeed: 500,
+			anchors: ['page00', 'page03', 'page02', 'page01'],
+			menu: '#slideMenu',
+			slidesNavigation: true
+//			,anchors:['firstPage', 'secondPage', 'thirdPage']
+		});
+		
+	</script>
+</body>
+</html>
